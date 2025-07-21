@@ -19,24 +19,100 @@ body{
 .cv {
     background-color: white;
     height: auto;
-
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
 }
+
 .titulo {
     text-align: center;
-    font-size: 50px;
-    padding: 20px 0;
+    font-size: 30px;
+    color: #0000cc; /* azul */
+    margin-bottom: 15px;
 }
+
+/* Datos personales */
 .datos-personales {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
     list-style: none;
     padding: 0;
-    margin: 0;
-    gap: 10px; 
+    margin: 0 0 30px 0;
+    gap: 10px;
 }
 
 .datos-personales li {
-    padding: 2px 6px;
-    font-size: 14px;
+    padding: 4px 10px;
+    border: 1px solid cyan;
+    font-size: 13px;
+    word-break: break-all;
+    background-color: white;
+}
+
+.datos-personales a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Secciones */
+.perfil-profesional,
+.educacion,
+.experiencia,
+.habilidades,
+.cursos,
+.idiomas {
+    margin-bottom: 25px;
+}
+
+/* Títulos de sección */
+.titulo2, .titulo3, .titulo4, .titulo5, .titulo6, .titulo7 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0000cc; /* azul */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+table th {
+    text-align: left;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+table td {
+    font-size: 13px;
+    padding: 4px 6px;
+    vertical-align: top;
+}
+
+/* Listas */
+.experiencia ul,
+.habilidades ul,
+.idiomas ul {
+    padding-left: 20px;
+    margin: 5px 0;
+}
+
+.experiencia ul li,
+.habilidades ul li,
+.idiomas ul li {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* Párrafo sobre mí */
+.sobre-mi {
+    text-align: justify;
+    margin: 0;
 }
