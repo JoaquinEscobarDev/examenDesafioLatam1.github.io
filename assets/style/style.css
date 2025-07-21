@@ -116,3 +116,36 @@ table td {
     text-align: justify;
     margin: 0;
 }
+
+.footer {
+    background-color: white;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    flex-wrap: wrap; 
+}
+
+.footer-horizontal div {
+    display: flex;
+    align-items: center;
+}
+
+.footer-horizontal i {
+    margin-right: 8px;
+    color: #0000cc;
+}
+
+.footer-horizontal a {
+    text-decoration: none;
+    color: black;
+}
