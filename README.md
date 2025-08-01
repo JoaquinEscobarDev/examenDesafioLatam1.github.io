@@ -24,15 +24,6 @@ Este repositorio reúne mi **Curriculum Vitae** y mi **Portafolio de proyectos**
 - **`assets/`**  
   - **`css/stylePortafolio.css`**: estilos personalizados basados en Bootstrap 5  
   - **`img/`**: capturas de cada desafío (`desafio1.png` … `desafio5.png`)
-
-- **`desafio1/` … `desafio5/`**  
-  Carpeta con el código fuente completo de los cinco retos previos:
-  1. Maquetación HTML/CSS  
-  2. JavaScript y manipulación del DOM  
-  3. Formularios y validaciones  
-  4. Consumo de API REST  
-  5. Proyecto final con Bootstrap 5
-
 ---
 
 ## 🎯 Objetivo
